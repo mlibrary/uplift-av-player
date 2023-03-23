@@ -1,0 +1,15 @@
+{
+  "name": "uplift-av-viewer",
+  "version": "1.0.0",
+  "description": "DLXS AV Viewer",
+  "main": "index.js",
+  "scripts": {
+    "release": "rsync -av --exclude=node_modules . quod-update:/l1/web/uplift-AV-viewer",
+    "date": "date",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
